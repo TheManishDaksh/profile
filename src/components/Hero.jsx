@@ -28,18 +28,18 @@ function Hero() {
             <span 
             className='border-2 border-slate-500 p-1 rounded-full cursor-pointer transition-transform duration-400 hover:-translate-y-4 shadow-white shadow-2xl hover:rotate-y-180'>
                 <a href="https://github.com/TheManishDaksh" target="_blank" rel="noopener noreferrer">
-                <img src="../../public/github.png" alt="github" width="60px"/>
+                <img src="/github.png" alt="github" width="60px"/>
                 </a>
             </span>
             <span className='border-2 border-slate-500 p-1 rounded-full bg-white cursor-pointer transition-transform duration-400 hover:-translate-y-4 shadow-white shadow-2xl hover:rotate-y-180'>
                 <a href="https://x.com/manish_dakshh" target="_blank" rel="noopener noreferrer"> 
-                <img src="../../public/twitter.png" alt="x" width="60px" style={{borderRadius: "60%"}}/>
+                <img src="/twitter.png" alt="x" width="60px" style={{borderRadius: "60%"}}/>
                 </a>
             </span>
           
             <span className='border-2 border-slate-500 p-1 rounded-full cursor-pointer transition-transform duration-400 hover:-translate-y-4 shadow-white shadow-2xl hover:rotate-y-180'>
                 <a href="https://www.linkedin.com/in/manish-kumar-262846252" target="_blank" rel="noopener noreferrer">
-                <img src="../../public/linkedin.png" alt="linkedIn" width="60px" style={{borderRadius: "50%"}} />
+                <img src="/linkedin.png" alt="linkedIn" width="60px" style={{borderRadius: "50%"}} />
                 </a>
             </span>
         </div>
