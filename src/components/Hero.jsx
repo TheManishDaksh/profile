@@ -9,10 +9,10 @@ function Hero() {
     </div>
      <div className='text-slate-400 flex  flex-col items-center '> 
         <div className='font-extrabold text-6xl'>
-        Hi, I'm <span className='transition-colors duration-300 hover:text-[#a855f7] px-2 py-1 rounded-2xl'>MANISH</span>
+        Hi, I'm <span className='transition-colors duration-300 hover:bg-[#a855f7] hover:text-white px-1 rounded-2xl'>MANISH</span>
         </div>
         <div className='font-bold text-3xl pt-4 pb-2 '>
-        <span>A </span> <span className='transition-colors duration-300 hover:text-[#a855f7] px-2 py-1 rounded-2xl'>React-JS</span> developer
+        <span>A </span> <span className='transition-colors duration-300 hover:bg-[#a855f7] hover:text-white px-2  rounded-2xl'>React-JS</span> developer
         </div>
         <div className='text-slate-300 text-3xl font-bold pb-2'>
         building seamless interfaces
@@ -20,8 +20,8 @@ function Hero() {
         <div className='text-slate-300 text-3xl font-bold'>
             and functionalities
         </div>
-        <div className='py-4'>
-            <button className='py-2 px-6 rounded-full border-slate-500 border-2 text-2xl font-bold text-slate-200 transition-colors duration-300 hover:text-[#a855f7] cursor-pointer'
+        <div className='py-6'>
+            <button className='py-2 px-6 rounded-full border-slate-500 border-2 text-2xl font-bold text-slate-200 transition-colors duration-300 hover:text-sky-300 cursor-pointer shadow shadow-white'
             >Resume</button>
         </div>
         <div className='flex gap-2' >
