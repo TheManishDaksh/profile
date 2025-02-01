@@ -54,7 +54,7 @@ function Hero() {
               transition-all duration-300 hover:-translate-y-4 shadow-2xl shadow-white 
               hover:rotate-90'
           >
-            <img src="/github.png" alt="github" className='w-[40px] sm:w-[60px]'/>
+            <img src="/github.png" alt="github" className='w-[50px] sm:w-[60px]'/>
           </a>
 
           <a 
@@ -65,7 +65,7 @@ function Hero() {
               transition-all duration-300 hover:-translate-y-4 shadow-2xl shadow-white 
               hover:rotate-90'
           > 
-            <img src="/twitter.png" alt="x" className='w-[40px] sm:w-[60px] rounded-[60%]'/>
+            <img src="/twitter.png" alt="x" className='w-[50px] sm:w-[60px] rounded-[60%]'/>
           </a>
 
           <a 
@@ -76,7 +76,7 @@ function Hero() {
               transition-all duration-300 hover:-translate-y-4 shadow-2xl shadow-white 
               hover:rotate-90'
           >
-            <img src="/linkedin.png" alt="linkedIn" className='w-[40px] sm:w-[60px] rounded-full'/>
+            <img src="/linkedin.png" alt="linkedIn" className='w-[50px] sm:w-[60px] rounded-full'/>
           </a>
         </div>
       </div>

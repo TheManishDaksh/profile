@@ -7,7 +7,7 @@ function Project() {
         SKILLS
       </div>
       <div>
-        <div className="flex gap-6 justify-items-center py-5">
+        <div className="grid gap-y-4 md:grid-cols-4 lg:grid-cols-5 gap-2  md:gap-3 lg:gap-6 justify-items-center py-5">
           <div className="flex items-center px-3 py-2  text-slate-400 font-bold text-2xl gap-1 border-2 border-slate-700 w-[150px] rounded-full shadow-2xl shadow-white transition-transform duration-300 hover:-translate-y-4 hover:text-sky-300 cursor-pointer hover:rotate-x-180">
             <span>
               <img src="/html.png" alt="Html" width="40px" />
@@ -56,8 +56,8 @@ function Project() {
             </span>
             <span>Node</span>
           </div>
-        </div>
-        <div className="flex gap-6 justify-center ">
+      
+        
           <div className="flex items-center px-3 py-2  text-slate-400 font-bold text-2xl gap-2 border-2 border-slate-700 w-[100px] rounded-full shadow-2xl shadow-white transition-transform duration-300 hover:-translate-y-4 hover:text-sky-300 cursor-pointer hover:rotate-x-180">
             <span>
               <img src="/js.png" alt=" js" width="30px" />
@@ -77,13 +77,14 @@ function Project() {
             <span>Redux</span>
           </div>
         </div>
-      </div>
+        </div>
+
       <div>
         <div className="text-5xl font-bold flex justify-center py-14 text-slate-400 ">
           Projects
         </div>
-        <div className="grid grid-cols-2 gap-10 pb-10">
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+        <div className="grid  md:grid-cols-1 md:px-24 lg:px-10 lg:grid-cols-2 gap-10 pb-10">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="/react.png" alt="Project" width="200px" />
             </div>
@@ -111,7 +112,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="../../public/react.png" alt="Project" width="200px" />
             </div>
@@ -140,7 +141,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="../../public/react.png" alt="Project" width="200px" />
             </div>
@@ -170,7 +171,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="../../public/react.png" alt="Project" width="200px" />
             </div>
@@ -199,7 +200,7 @@ function Project() {
             </div>
           </div>
           
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="../../public/react.png" alt="Project" width="200px" />
             </div>
@@ -228,7 +229,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[450px] h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
               <img src="../../public/react.png" alt="Project" width="200px" />
             </div>

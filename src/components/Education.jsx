@@ -6,7 +6,7 @@ function Education() {
         <div className='text-slate-400 text-5xl font-bold flex justify-center py-10'>
             Education
         </div>
-        <div className='flex justify-between'>
+        <div className='block md:flex md:justify-between lg:flex lg:justify-between'>
             <div className='p-4'>
                 <img src="/college2.jpg" alt="college" width="500px"  style={{borderRadius : "10%"}} />
             </div>
