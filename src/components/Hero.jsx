@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className='flex flex-col items-center py-8 md:flex-row md:justify-between md:py-10 lg:py-20'>
 
-      <div className='w-[200px] lg:w-[250px] bg-sky-300 rounded-full shadow-2xl  shadow-blue-50 
+      <div className='w-[200px] lg:w-[250px] lg:bg-sky-300 lg:rounded-4xl bg-sky-300 rounded-full shadow-2xl  shadow-blue-50 
         transition-transform duration-200 hover:-translate-y-4 hover:rotate-y-180 cursor-pointer overflow-hidden'>
         <img 
           src="/pfp.jpg" 

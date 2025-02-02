@@ -8,7 +8,7 @@ function Education() {
         </div>
         <div className='block md:flex md:justify-between lg:flex lg:justify-between'>
             <div className='p-4'>
-                <img src="/college2.jpg" alt="college" width="500px"  style={{borderRadius : "10%"}} />
+                <img src="/college2.jpg" alt="college" className='w-[500px] rounded-2xl' />
             </div>
             <div className='p-4'>
                 <div className='text-slate-300 text-3xl font-bold'
