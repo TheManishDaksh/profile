@@ -10,7 +10,7 @@ function Contact() {
         <div className=' rounded-3xl border-2 text-slate-400 border-slate-700 w-[130px]  shadow-white shadow font-bold transition-transform duration-400 hover:-translate-y-4 hover:text-sky-300 hover:shadow-2xl'> 
          <button onClick={() => window.location.href = "mailto:manishk78265@gmail.com"}
          className=' py-2 px-2 text-lg cursor-pointer flex gap-2 '>
-            <span><img src="../../public/gmail.png" alt="manishk78625@gmail.com" width="40px" /></span> 
+            <span><img src="/gmail.png" alt="manishk78625@gmail.com" width="40px" /></span> 
             <span>Contact</span>
              </button>
         </div>

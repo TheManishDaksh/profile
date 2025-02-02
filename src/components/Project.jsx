@@ -84,24 +84,24 @@ function Project() {
           Projects
         </div>
         <div className="grid  md:grid-cols-1 md:px-24 lg:px-10 lg:grid-cols-2 gap-10 pb-10">
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
-              <img src="/react.png" alt="Project" width="200px" />
+              <img src="/trave3.jpg" alt="Travel Project" className="w-[400px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
                 <div className="text-3xl py-4 font-bold ">TravelO</div>
+                <p className="pb-2">
+                Developed a Tavel website for booking hotels online
+                </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
+                Implemented Features like user-SignUp/Login, add to wishlist, Search destinations, Add guests
                 </p>
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                   <a href="https://github.com/TheManishDaksh/travel_fe" target="_blank" rel="noopener noreferrer" style={{display:"flex", alignItems:"center", gap:"8px"}}>
-                  <img src="../../public/github.png" alt="git" width="30px" />
+                  <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
                   </a>
                 </div>
@@ -112,25 +112,23 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
-              <img src="../../public/react.png" alt="Project" width="200px" />
+              <img src="/viewtube.png" alt="View-tube" className="w-[400px] h-[150px] md:h-[220px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
                 <div className="text-3xl py-4 font-bold ">View Tube</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
+                <p className="py-2">
+                  Build a you tube like clone 
                 </p>
+                <p>Build this application for sharping my skills with API's</p>
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                   <a href="https://github.com/TheManishDaksh/yt_clone" target="_blank" rel="noopener noreferrer"
                   style={{display:"flex", alignItems:"center", gap:"8px"}}>
-                  <img src="../../public/github.png" alt="git" width="30px" />
+                  <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
                   </a>
                 </div>
@@ -141,55 +139,23 @@ function Project() {
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
-              <img src="../../public/react.png" alt="Project" width="200px" />
-            </div>
-            <div>
-              <div className="text-slate-400">
-                <div className="text-3xl py-4 font-bold ">Blog App</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
-                </p>
-              </div>
-              <div className="flex gap-4 pt-4">
-                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
-                  <a href="https://github.com/TheManishDaksh/blogApp" target="_blank" rel="noopener noreferrer"
-                  style={{display:"flex", alignItems:"center", gap:"8px"}}>
-                  <img src="../../public/github.png" alt="git" width="30px" />
-                  <span>Github</span>
-                  </a>
-                </div>
-
-                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-20 pl-2 text-slate-400 rounded-lg hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
-                  Live Link
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
-            <div className="flex justify-center">
-              <img src="../../public/react.png" alt="Project" width="200px" />
+              <img src="/profilepage.png" alt="profile" className="w-[400px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
                 <div className="text-3xl py-4 font-bold ">Profile</div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
+                 It's a simple Profile Page that contains my details and some fo my projects with their github repo link
                 </p>
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                   <a href="https://github.com/TheManishDaksh/profile" target="_blank" rel="noopener noreferrer"
                   style={{display:"flex", alignItems:"center", gap:"8px"}}  >
-                  <img src="../../public/github.png" alt="git" width="30px" />
+                  <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
                   </a>
                 </div>
@@ -200,60 +166,81 @@ function Project() {
             </div>
           </div>
           
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
-              <img src="../../public/react.png" alt="Project" width="200px" />
+              <img src="/blog-category.jpg" alt="Blog" className="w-[400px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
-                <div className="text-3xl py-4 font-bold ">Landing Page</div>
+                <div className="text-3xl py-4 font-bold ">Blog App</div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
+                  Build a simple Blogging application with Features like SignUp/Login, Craete Post, Edit-post, Delete-post
+                </p>
+              </div>
+              <div className="flex gap-4 pt-4">
+                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                  <a href="https://github.com/TheManishDaksh/blogApp" target="_blank" rel="noopener noreferrer"
+                  style={{display:"flex", alignItems:"center", gap:"8px"}}>
+                  <img src="/github.png" alt="git" width="30px" />
+                  <span>Github</span>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[450px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+            <div className="flex justify-center">
+              <img src="/sora.png" alt="sora" className="w-[400px] h-[160px] md:h-[200px] lg:h-[200px] rounded-2xl" />
+            </div>
+            <div>
+              <div className="text-slate-400">
+                <div className="text-3xl py-4 font-bold ">Sora</div>
+                <p className="py-2">
+                  Sora is a landing page made with react and tailwind-css 
+                </p>
+                <p>
+                  It's a service agency landing page that contains no functionality
                 </p>
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                   <a href="https://github.com/TheManishDaksh/SaaSFirst" target="_blank" rel="noopener noreferrer"
                   style={{display:"flex", alignItems:"center", gap:"8px"}}  >
-                  <img src="../../public/github.png" alt="git" width="30px" />
+                  <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
                   </a>
                 </div>
-                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-20 pl-2 text-slate-400 rounded-lg hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
-                  Live Link
-                </div>
+              
               </div>
             </div>
           </div>
 
-          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[520px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
+          <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[430px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
             <div className="flex justify-center">
-              <img src="../../public/react.png" alt="Project" width="200px" />
+              <img src="/extensions.webp" alt="extension"className="w-[400px] h-[160px] md:h-[200px] lg:h-[200px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
                 <div className="text-3xl py-4 font-bold ">Extension</div>
+                <p className="py-2">
+                  This is a Extension 
+                </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita magnam ipsum repellendus voluptate. Possimus maxime
-                  laudantium tempora velit hic quaerat? A voluptate assumenda
-                  debitis,
+                  It greet you, hold your todo in itself and help to complete today's Goal
                 </p>
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                   <a href="https://github.com/TheManishDaksh/browserExtension" target="_blank" rel="noopener noreferrer"
                   style={{display:"flex", alignItems:"center", gap:"8px"}}  >
-                  <img src="../../public/github.png" alt="git" width="30px" />
+                  <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
                   </a>
                 </div>
-                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-20 pl-2 text-slate-400 rounded-lg hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
-                  Live Link
-                </div>
+          
               </div>
             </div>
           </div>
