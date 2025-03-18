@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {motion} from "motion/react"
 
 function Education() {
   return (
-    <div> 
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 3 }}
+    > 
         <div className='text-slate-400 text-5xl font-bold flex justify-center py-10'>
             Education
         </div>
@@ -23,7 +28,7 @@ function Education() {
                     </div>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

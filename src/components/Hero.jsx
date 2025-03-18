@@ -1,7 +1,13 @@
 import React from 'react'
+import {motion} from "motion/react"
 
 function Hero() {
   return (
+    <motion.div 
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 2 }}
+    >
     <div className='flex flex-col items-center py-8 md:flex-row md:justify-between md:py-10 lg:py-20'>
 
       <div className='w-[200px] lg:w-[250px] lg:bg-sky-300 lg:rounded-4xl bg-sky-300 rounded-full shadow-2xl  shadow-blue-50 
@@ -81,6 +87,7 @@ function Hero() {
         </div>
       </div>
     </div>
+    </motion.div>
   )
 }
 

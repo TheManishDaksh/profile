@@ -1,8 +1,13 @@
 import React from "react";
+import {motion} from "motion/react"
 
 function Project() {
   return (
-    <div>
+    <motion.div 
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 3 }}
+    >
       <div className="text-slate-400 font-bold text-5xl flex justify-center py-5 ">
         SKILLS
       </div>
@@ -247,7 +252,7 @@ function Project() {
 
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

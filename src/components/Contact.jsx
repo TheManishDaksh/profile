@@ -1,7 +1,13 @@
 import React from 'react'
+import { motion } from 'motion/react'
 
 function Contact() {
   return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 3 }}
+    >
     <div className='border-t-2 border-slate-700 py-4'>
         <div className='flex items-center flex-col'>
         <div className='text-slate-200 font-bold py-4'>
@@ -19,6 +25,7 @@ function Contact() {
             [ Made by Manish Kumar ]
         </div>
     </div>
+    </motion.div>
   )
 }
 
