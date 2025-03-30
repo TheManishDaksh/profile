@@ -190,6 +190,9 @@ function Project() {
                   <span>Github</span>
                   </a>
                 </div>
+                <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-20 pl-2 text-slate-400 rounded-lg hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                <a href="https://muse-pi.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+                </div>
 
               </div>
             </div>
