@@ -184,7 +184,7 @@ function Project() {
               </div>
               <div className="flex gap-4 pt-4">
                 <div className="flex items-center gap-2 border-2 border-slate-700 shadow shadow-white w-24 text-slate-400 rounded-xl hover:text-sky-300 cursor-pointer transition-transform duration-300 hover:-translate-y-2">
-                  <a href="https://github.com/TheManishDaksh/blogApp" target="_blank" rel="noopener noreferrer"
+                  <a href="https://github.com/TheManishDaksh/muse" target="_blank" rel="noopener noreferrer"
                   style={{display:"flex", alignItems:"center", gap:"8px"}}>
                   <img src="/github.png" alt="git" width="30px" />
                   <span>Github</span>
