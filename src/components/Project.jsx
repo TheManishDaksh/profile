@@ -69,6 +69,12 @@ function Project() {
             </span>
             <span>JS</span>
           </div>
+          <div className="flex items-center px-3 py-2  text-slate-400 font-bold text-2xl gap-2 border-2 border-slate-700 w-[100px] rounded-full shadow-2xl shadow-white transition-transform duration-300 hover:-translate-y-4 hover:text-sky-300 cursor-pointer hover:rotate-x-180">
+            <span>
+              <img src="/ts.png" alt=" Ts" width="30px" />
+            </span>
+            <span>TS</span>
+          </div>
           <div className="flex items-center px-3 py-2  text-slate-400 font-bold text-2xl gap-1 border-2 border-slate-700 w-[150px] rounded-full shadow-2xl shadow-white transition-transform duration-300 hover:-translate-y-4 hover:text-sky-300 cursor-pointer hover:rotate-x-180">
             <span>
               <img src="/react.png" alt="React" width="40px" />
@@ -172,8 +178,8 @@ function Project() {
           </div>
           
           <div className="transition-transform duration-300 hover:scale-105 hover:shadow-2xl border-2 border-slate-700 w-[280px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] shadow-sky-300 rounded-2xl px-5 py-4">
-            <div className="flex justify-center">
-              <img src="/blog-category.jpg" alt="Blog" className="w-[400px] rounded-2xl" />
+            <div className="flex justify-center pb-10">
+              <img src="/blog-category.png" alt="Blog" className="w-[400px] rounded-2xl" />
             </div>
             <div>
               <div className="text-slate-400">
