@@ -47,7 +47,7 @@ function Hero() {
           <button className='py-2 px-6 rounded-full border-slate-500 border-2 text-xl sm:text-2xl 
             font-bold text-slate-200 transition-transform duration-300 hover:-translate-y-4 
             hover:text-sky-300 cursor-pointer shadow shadow-white'>
-            <a href="https://drive.google.com/file/d/1zkAEub48S8zVk_QI95e8WlUBRTFxLtV5/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1GTEmiPET9_8v3Zm4YUa3u1hI0gDr7WWi/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </button>
         </div>
 
